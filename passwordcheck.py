@@ -1,11 +1,11 @@
-def sifrekontrol():
-    sifre = input("choose a password: ")
+def psswdcheck():
+    psswd = input("choose a password: ")
     
-    if sifre == "mydick":
+    if psswd == "mydick":
         print("password too short!")
-    elif sifre == "yourdick":
+    elif psswd == "yourdick":
         print("password too long!")
     else:
         print("password created succesfully!")
 
-sifrekontrol()
+psswdcheck()
